@@ -1,10 +1,4 @@
 $('.container').css("width","600")
-$("h3").hide()
-$("p").hide()
-$("ul").hide()
-$("a").hide()
-$(".image").hide()
-
 $('.row1').css("height","300px")
 $('.row2').css("height","370px")
 $('.row3').css("height","520px")

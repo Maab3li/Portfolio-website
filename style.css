@@ -43,3 +43,6 @@ h3 :hover {
     color: rgba(0, 0, 0, 0.822);
     border-color: aliceblue;
 }
+p, h3, .image, a, .b1, .b2, .b3, .b4, .b5, .b6, ul{
+    display: none;
+}
