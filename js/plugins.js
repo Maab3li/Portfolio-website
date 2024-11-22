@@ -1,6 +1,8 @@
-$('.container').css("width","600")
+$('.container').css("width","1200")
+$('.container').css("letter-spacing","3px")
 $('.row1').css("height","300px")
 $('.row2').css("height","370px")
+$('.row0').css("height","600px")
 $('.row3').css("height","520px")
 $('.row4').css("height","350px")
 $('.row5').css("height","230px")
@@ -13,11 +15,11 @@ $("a").css("color","#FFF")
 $("button").hide()
 $(".b0").show()
 $(".b0").click(function(){
-$(this).hide()
-$("h3").show(1000)
-$("p").show(1000)
-$("ul").show(1000)
-$("a").show(1000)
+$(this).hide(300)
+$("h3").show(2000)
+$("p").show(2000)
+$("ul").show(2000)
+$("a").show(2000)
 $(".image").show(800)
 })
 $(".b0").hover(
@@ -28,3 +30,5 @@ $(".b0").hover(
         $(".b0").removeClass("button-hover")
     })
 )
+
+
