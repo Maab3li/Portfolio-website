@@ -1,0 +1,50 @@
+body {
+    color: rgb(204, 82, 1);
+    line-height: 1.5px;
+}
+
+.container{
+    color: #FFF;
+    background: rgb(2, 0, 36);
+    align-items: center;
+    padding-top: 50px;
+
+    background-image: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(109,9,61,0.1786243252362265) 29%, rgba(0,212,255,1) 100%);
+}
+.row{
+    height :100px
+}
+.row-expand{
+    height: 350px
+}
+.row-expand2{
+    height: 490px;
+}
+footer {
+    padding-top: 100px;
+}
+.button {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.822);
+    color: aliceblue;
+}
+img{
+    width: 350px ;
+    height: 200px;
+}
+p, ul{
+    font-weight: 500;
+    color:rgb(255, 255, 255)
+}
+h3 :hover {
+    color: rgb(255, 255, 255);
+}
+.button-hover {
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: rgba(0, 0, 0, 0.822);
+    border-color: aliceblue;
+}
+p, h3, .image, a, .b1, .b2, .b3, .b4, .b5, .b6, ul{
+    display: none;
+}
