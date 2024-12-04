@@ -1,21 +1,20 @@
 body {
     color: rgb(204, 82, 1);
     line-height: 1.5px;
+    
 }
-
 .container{
     color: #FFF;
     background: rgb(2, 0, 36);
     align-items: center;
     padding-top: 50px;
-
     background-image: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(109,9,61,0.1786243252362265) 29%, rgba(0,212,255,1) 100%);
 }
 .row{
     height :100px
 }
 .row-expand{
-    height: 350px
+    height: 500px
 }
 .row-expand2{
     height: 490px;
@@ -29,8 +28,8 @@ footer {
     color: aliceblue;
 }
 img{
-    width: 350px ;
-    height: 200px;
+    width: 500px ;
+    height: 350px;
 }
 p, ul{
     font-weight: 500;
@@ -45,6 +44,11 @@ h3 :hover {
     color: rgba(0, 0, 0, 0.822);
     border-color: aliceblue;
 }
-p, h3, .image, a, .b1, .b2, .b3, .b4, .b5, .b6, ul{
+.showflexed {
+    display: inline-flexbox;
+}
+p, h3, .image, a, .b1, .b2, .b3, .b4, .b5, .b6, ul, .h1,h2, .img1, .img2,h3
+, .img3, .p1, .img4, .img5, .p2, .p3, .p4, .p5,.p6,.p7,.p8,.p9,.p10
+{
     display: none;
 }

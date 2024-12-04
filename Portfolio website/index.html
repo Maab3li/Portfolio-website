@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
     <link href="style.css" rel = "stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -10,67 +13,65 @@
 </head>
 <body class="container">
     <div class="row row0 offset-2">
-            <h1  style="letter-spacing: 3px; padding-right: 10px;">Hello There , Welcome to My Portfolio 
-                !
+            <h1 id="text1" class="h1 offset-0">Hello There ,Welcome to My Portfolio !
             </h1>
-        <img style="width: 700px; height: 450px;" src="images/16996486_708754482636181_5846626126165356020_n.jpg" alt = "welcoming image">
+        <img class="img1 offset-1" style="width: 700px; height: 450px;" src="images/16996486_708754482636181_5846626126165356020_n.jpg" alt = "welcoming image">
         
     </div>
         <div class="row row1">
             <div class="col offset-2">
-                <h2 class="h2 offset-3">Who I am ?</h2>
-                <button class="button b0 offset-4">View</button>
-                <img class="offset-2 image who-i-am" src="images/20241118_192956.jpg" alt="welcoming image">
+                <h2 id="text2" class="h2 offset-4">Who I am ?</h2>
+                <img class="offset-2 img2 who-i-am" src="images/IMG_20241129_192609.jpg" alt="welcoming image">
             </div>
         </div>
         <div class="row row2">
             <div class="col offset-2">
-                <h3 class="offset-3 header1">About Me ?</h3>
-                <p class="about-me">A fresh graduate seeking for knowledge and experience, interested in web application development and it's techniques. </p>
-                <img class="offset-2 about-me image" src="images/IMG-20241118-WA0008.jpg" alt = "about me image">
+                <h2 id="text3" class="offset-4 header1">About Me ?</h2>
+                <p id="text4" class="about-me p1">A fresh graduate seeking for knowledge and experience, interested in web application development and it's techniques. </p>
+                <img class="offset-2 about-me image img3" src="images/IMG-20241118-WA0008.jpg" alt = "about me image">
             </div>
         </div>
         <div class="row row3">
             <div class="col offset-2">
-                <h3 class="offset-3 header2">My Hobbies ?</h3>
-                <img class="my-hobbies image offset-2" src="images/istockphoto-1306190794-612x612.jpg" alt = "hobby1 image"><br><br>
-                <img class="offset-2 my-hobbies image" src="images/IMG-20241118-WA0007.jpg" alt="hobby2 image">
+                <h3 id="text5" class="offset-4 header2">My Hobbies ?</h3>
+                <img class="my-hobbies image offset-2 img4" src="images/istockphoto-1306190794-612x612.jpg" alt = "hobby1 image"><br><br>
+                <img class="offset-2 my-hobbies image img4" src="images/IMG-20241118-WA0007.jpg" alt="hobby2 image">
             </div>
         </div>
         <div class="row row4">
             <div class="col offset-2">
-                <h3 class="offset-3 header3">My Education ?</h3>
-                <p class="my-education">I've studied Software Engineering at Sudan University of Science and Technology.</p>
-                <img class="offset-2 my-education image" src="images/2.jpg" alt="education image">
+                <h3 id="text6" class="offset-4 header3">My Education ?</h3>
+                <p id="text7" class="my-education p2">I've studied Software Engineering at Sudan University of Science and Technology.</p>
+                <img class="offset-2 my-education image img5" src="images/2.jpg" alt="education image">
             </div>
         </div>
         <div class="row row5">
             <div class="col offset-2">
-                <h3 class="offset-2 header4">My Qualifications ?</h3>
-                <ul class="my-qualifications">
-                    <li>Familiar with HTML, CSS, Javascript, Bootstrap and Python</li>
-                    <li>Familiar with jQuery library and Django web framework</li>
-                    <li>Familiar with creating and manipulating databases using MySQL</li>
-                    <li>Open to learn , and learn fast</li>
+                <h3 id="text8" class="offset-3 header4">My Qualifications ?</h3>
+                <ul class="my-qualifications pu " >
+                    <li class="p3" id="text9">Familiar with HTML, CSS, Javascript, Bootstrap and Python</li>
+                    <li class="p4" id="text10">Familiar with jQuery library and Django web framework</li>
+                    <li class="p5" id="text11">Familiar with creating and manipulating databases using MySQL</li>
+                    <li class="p6" id="text12">Open to learn , and learn fast</li>
                 </ul>
             </div>
         </div>
         <div class="row row6">
             <div class="col offset-2">
-                <h3 class="offset-3 header5">My Codings ?</h3>
-                <p class="my-codings">Available on Github :</p>
-                <a class="my-codings" href="https://github.com/Maab3li/Portfolio-website.git" rel = "github site">https://github.com/Maab3li/Portfolio-webpage.git</a>
+                <h3 id="text13" class="offset-4 header5">My Codings ?</h3>
+                <p id="text14" class="my-codings p7">Available on Github :</p>
+                <a id="text15" class="my-codings p8" href="https://github.com/Maab3li/Portfolio-website.git" rel = "github site">https://github.com/Maab3li/Portfolio-webpage.git</a>
             </div>
         </div>
         <div class="row row7">
             <div class="col offset-2">
-                <h3 class="offset-3 header6">Contact ?</h3>
-                <p>Email: <a href="mailto:maab3li555@gmail.com">maab3li555@gmail.com</a></p>
-                <p class="contact">LinkedIn: <a href="https://www.linkedin.com/in/maab-ali-46838b302?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Maab Ali</a> </p>
+                <h3 id="text16" class="offset-4 header6">Contact ?</h3>
+                <p id="text17" class="p9">Email: <a href="mailto:officially@gmail.com" class="p5">maabofficially@gmail.com</a></p>
+                <p id="text18" class="contact p10">LinkedIn: <a href="https://www.linkedin.com/in/maab-ali-46838b302?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="p5">Maab Ali</a> </p>
             </div>
         </div><br>
-        <footer class="offset-5">
-            &#169 Copyright 2024 Maab3li 
+        <footer id="text19" class="offset-5 p11">
+            Copyright &#169 2024 maab3li
         </footer>
     
     
@@ -81,6 +82,297 @@
 <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 <script src="js/plugins.js"></script>
 <script type="text/Javascript">
+
+// who iam
+let text2 = new SplitType('#text2')
+let characters2 = document.querySelectorAll('.char')
+
+for(i=0; i<characters2.length; i++) {
+    characters2[i].classList.add('translate-y-full')
+}
+
+gsap.to('.char', {
+    y:0,
+    x:0,
+    stagger: 0.05,
+    delay :3,
+    duration:0.5
+})
+
+//about me
+let text3 = new SplitType('#text3')
+let characters3 = document.querySelectorAll('.char')
+
+for(i=0; i<characters3.length; i++) {
+    characters3[i].classList.add('translate-y-full')
+}
+
+gsap.to('.char', {
+    y:0,
+    x:0,
+    stagger: 0.05,
+    delay :3,
+    duration:0.5
+})
+
+// about me paragraph
+let text4 = new SplitType('#text4')
+let characters4 = document.querySelectorAll('.char')
+
+for(i=0; i<characters4.length; i++) {
+    characters4[i].classList.add('translate-y-full')
+}
+
+gsap.to('.char', {
+    y:0,
+    x:0,
+    stagger: 0.5,
+    delay :3,
+    duration:0.5
+})
+
+// my hobbies
+let text5 = new SplitType('#text5')
+let characters5 = document.querySelectorAll('.char')
+
+for(i=0; i<characters5.length; i++) {
+    characters5[i].classList.add('translate-y-full')
+}
+
+gsap.to('.char', {
+    y:0,
+    x:0,
+    stagger: 0.05,
+    delay :3,
+    duration:0.5
+})
+
+// my education
+let text6 = new SplitType('#text6')
+let characters6 = document.querySelectorAll('.char')
+
+for(i=0; i<characters6.length; i++) {
+    characters6[i].classList.add('translate-y-full')
+}
+
+gsap.to('.char', {
+    y:0,
+    x:0,
+    stagger: 0.05,
+    delay :3,
+    duration:0.5
+})
+
+// my education paragraph
+let text7 = new SplitType('#text7')
+let characters7 = document.querySelectorAll('.char')
+
+for(i=0; i<characters7.length; i++) {
+    characters7[i].classList.add('translate-y-full')
+}
+
+gsap.to('.char', {
+    y:0,
+    x:0,
+    stagger: 0.05,
+    delay :3,
+    duration:1
+})
+
+//my qualifications
+let text8 = new SplitType('#text8')
+let characters8 = document.querySelectorAll('.char')
+
+for(i=0; i<characters8.length; i++) {
+    characters8[i].classList.add('translate-y-full')
+}
+
+gsap.to('.char', {
+    y:0,
+    x:0,
+    stagger: 0.10,
+    delay :3,
+    duration:0.5
+})
+
+/* my qualification list start*/
+let text9 = new SplitType('#text9')
+let characters9 = document.querySelectorAll('.char')
+
+for(i=0; i<characters9.length; i++) {
+    characters9[i].classList.add('translate-y-full')
+}
+
+gsap.to('.char', {
+    y:0,
+    x:0,
+    stagger: 0.05,
+    delay :3,
+    duration:0.5
+})
+
+let text10 = new SplitType('#text10')
+let characters10 = document.querySelectorAll('.char')
+
+for(i=0; i<characters10.length; i++) {
+    characters10[i].classList.add('translate-y-full')
+}
+
+gsap.to('.char', {
+    y:0,
+    x:0,
+    stagger: 0.05,
+    delay :3,
+    duration:0.5
+})
+
+let text11 = new SplitType('#text11')
+let characters11 = document.querySelectorAll('.char')
+
+for(i=0; i<characters11.length; i++) {
+    characters11[i].classList.add('translate-y-full')
+}
+
+gsap.to('.char', {
+    y:0,
+    x:0,
+    stagger: 0.05,
+    delay :3,
+    duration:0.5
+})
+
+
+let text12 = new SplitType('#text12')
+let characters12 = document.querySelectorAll('.char')
+
+for(i=0; i<characters12.length; i++) {
+    characters12[i].classList.add('translate-y-full')
+}
+
+gsap.to('.char', {
+    y:0,
+    x:0,
+    stagger: 0.05,
+    delay :3,
+    duration:0.5
+})
+/*my qualification list end*/
+
+
+// my codings
+let text13 = new SplitType('#text13')
+let characters13 = document.querySelectorAll('.char')
+
+for(i=0; i<characters13.length; i++) {
+    characters13[i].classList.add('translate-y-full')
+}
+
+gsap.to('.char', {
+    y:0,
+    x:0,
+    stagger: 0.05,
+    delay :3,
+    duration:0.5
+})
+
+//available on github 
+let text14 = new SplitType('#text14')
+let characters14 = document.querySelectorAll('.char')
+
+for(i=0; i<characters14.length; i++) {
+    characters14[i].classList.add('translate-y-full')
+}
+
+gsap.to('.char', {
+    y:0,
+    x:0,
+    stagger: 0.05,
+    delay :3,
+    duration:0.5
+})
+
+//github link 
+let text15 = new SplitType('#text15')
+let characters15 = document.querySelectorAll('.char')
+
+for(i=0; i<characters15.length; i++) {
+    characters15[i].classList.add('translate-y-full')
+}
+
+gsap.to('.char', {
+    y:0,
+    x:0,
+    stagger: 0.05,
+    delay :3,
+    duration:0.5
+})
+
+//contact
+let text16 = new SplitType('#text16')
+let characters16 = document.querySelectorAll('.char')
+
+for(i=0; i<characters16.length; i++) {
+    characters16[i].classList.add('translate-y-full')
+}
+
+gsap.to('.char', {
+    y:0,
+    x:0,
+    stagger: 0.05,
+    delay :3,
+    duration:0.5
+})
+
+//email
+let text17 = new SplitType('#text17')
+let characters17 = document.querySelectorAll('.char')
+
+for(i=0; i<characters17.length; i++) {
+    characters17[i].classList.add('translate-y-full')
+}
+
+gsap.to('.char', {
+    y:0,
+    x:0,
+    stagger: 0.05,
+    delay :3,
+    duration:0.5
+})
+
+//linkedin
+let text18 = new SplitType('#text18')
+let characters18 = document.querySelectorAll('.char')
+
+for(i=0; i<characters18.length; i++) {
+    characters18[i].classList.add('translate-y-full')
+}
+
+gsap.to('.char', {
+    y:0,
+    x:0,
+    stagger: 0.05,
+    delay :3,
+    duration:0.5
+})
+
+//footer
+let text19 = new SplitType('#text19')
+let characters19 = document.querySelectorAll('.char')
+
+for(i=0; i<characters19.length; i++) {
+    characters19[i].classList.add('translate-y-full')
+}
+
+gsap.to('.char', {
+    y:0,
+    x:0,
+    stagger: 0.05,
+    delay :3,
+    duration:1
+})
+
+
+
 
 </script>
 </body>
