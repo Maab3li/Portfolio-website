@@ -1,13 +1,20 @@
 body {
     color: rgb(204, 82, 1);
     line-height: 1.5px;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
     
 }
+p {
+    font-size: larger;
+}
+@font-face { font-family: Delicious; src: url('Delicious-Roman.otf'); } 
+@font-face { font-family: Delicious; font-weight: bold; src: url('Delicious-Bold.otf');}
 .container{
     color: #FFF;
     background: rgb(2, 0, 36);
     align-items: center;
     padding-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(109,9,61,0.1786243252362265) 29%, rgba(0,212,255,1) 100%);
 }
 .row{
